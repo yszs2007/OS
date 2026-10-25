@@ -1,0 +1,16 @@
+{
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "files.eol": "\n",
+  "C_Cpp.default.compilerPath": "/usr/bin/riscv64-unknown-elf-gcc",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/libs",
+    "${workspaceFolder}/kern/mm",
+    "${workspaceFolder}/kern/debug",
+    "${workspaceFolder}/kern/driver"
+  ],
+  "C_Cpp.default.compilerArgs": [
+    "-march=rv64imac_zicsr_zifencei",
+    "-mabi=lp64"
+  ],
+  "C_Cpp.default.cStandard": "gnu99"
+}

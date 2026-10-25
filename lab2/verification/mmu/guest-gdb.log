@@ -1,0 +1,11 @@
+The target architecture is set to "riscv:rv64".
+0x0000000000001000 in ?? ()
+Hardware assisted breakpoint 1 at 0xffffffffc02000ec: file kern/init/init.c, line 28.
+
+Breakpoint 1, 0xffffffffc02000ec in kern_init () at kern/init/init.c:28
+28	int kern_init(void) {
+=> 0xffffffffc02000ec <kern_init+22>:	sd	ra,8(sp)
+$1 = 0xffffffffc0204ff0
+$2 = 0xffffffffc0204ff8
+0xffffffffc02000ee	30	    memset(edata, 0, end - edata);
+Remote connection closed
