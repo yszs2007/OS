@@ -1,7 +1,0 @@
-bin/
-obj/
-__pycache__/
-*.pyc
-.gdb.in
-.qemu.out
-*.swp
